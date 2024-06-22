@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: rgb(117, 193, 223);
+    display: flex;
+    padding: 16px 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2 {
+    font-size: 2.2em;
+}
+
+.links {
+    padding-right: 90px;
+}
+
+.links a {
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 1.2em;
+    color: black;
+    cursor: pointer;
+}
+
+.describe {
+    display: flex;
+    align-items: center;
+    padding: 20px 150px;
+    margin-bottom: 43px;
+}
+
+.describe .wel {
+    max-width: 600px;
+    margin-right: 20px;
+}
+
+.describe h2 {
+    font-size: 1.9em;
+    color: blue;
+}
+
+.tech {
+    color: black;
+}
+
+.ver {
+    padding-left: 50px;
+}
+
+.describe p {
+    margin-top: 10px;
+    font-size: 1.6em;
+}
+
+.mgg img {
+    border: 2px solid rgb(117, 193, 223);
+    border-radius: 30% 0%;
+}
+
+.footer {
+    height: 62px;
+    background-color: rgb(117, 193, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer i {
+    margin: 0 10px;
+    font-size: 1.9em;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header h2 {
+        margin-bottom: 10px;
+    }
+
+    .links {
+        padding-right: 0;
+    }
+
+    .describe {
+        padding: 20px 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 10px 20px;
+    }
+
+    .header h2 {
+        font-size: 1.5em;
+    }
+
+    .links a {
+        font-size: 1em;
+    }
+
+    .describe {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .describe .wel {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .describe h2 {
+        font-size: 1.5em;
+    }
+
+        
+    .ver {
+        padding-left: 0px;
+    }
+
+    .describe p {
+        font-size: 1.2em;
+    }
+
+    .mgg img {
+        width: 100%;
+        max-width: 300px;
+        margin-top: 20px;
+    }
+
+    .footer {
+        display: flex;
+    }
+
+    .footer i {
+        font-size: 1.5em;
+    }
+}

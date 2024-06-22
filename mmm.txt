@@ -1,0 +1,39 @@
+
+.describe {
+    display: flex;
+}
+
+.describe h2 {
+    padding-top: 10px;
+    padding-left: 160px;
+}
+
+.describe .tech {
+    padding-right: -10px;
+    color: blue;
+}
+
+.ver {
+    padding-left: 30px;
+}
+
+.wel {
+    padding-top: 0px;
+}
+
+.describe p {
+    padding-top: 10px;
+    padding-left: 160px;
+    padding-right: 460px;
+    font-size: 1.6em;
+}
+
+.mgg {
+
+}
+
+.describe {
+    position: relative;
+    padding: 100px 200px 124px 100px;
+    overflow: hidden;
+  }
